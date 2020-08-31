@@ -1,12 +1,15 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <meta name="keywords" content="Jimmy Thuse, Tuse, Thuse, Tusse">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Jimmy Thuse">
         <meta name="description" content="A webpage with Jimmy Thuse´s Portfolio, CV, created content and Achivements.">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
         <title>Thuses CV Page</title>
         <link rel="stylesheet" type="text/css" href="css/CV-style.css">
+        <link rel="stylesheet" type="text/css" href="css/cv-responsive.css">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;1,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet"> 
     </head>
         <body>
@@ -21,8 +24,18 @@
                     </ul>
                 </nav>
                 <h1>CV</h1>
+                <div class="nav-menu">
+                        <button class="nav-drop"><ion-icon name="menu-outline"></ion-icon></button>
+                    <div class="dropdown-content">
+                        <a href="../index.html" class="nav-home">Home</a> 
+                        <a href="CV.html" class="nav-cv">CV</a> 
+                        <a href="../udemy/udemy.html" class="nav-udemy">Udemy</a>
+                        <a href="#Reserved" class="nav-reserved">Reserved</a> 
+                        <a href="../about/about.html" class="nav-about">About</a> 
+                    </div>
+                </div>
             </header>
-            <section class="intro-box">
+           <section class="intro-box">
                 <h2 class="h2intro">Intro</h2>
                     <p class="intro">
                         I see myself as a hard working, loyal and an autonomous worker.<br> 
@@ -53,26 +66,15 @@
                         <li>Findus AB, Bjuv<br>
                             June 2010-June 2011</li>
                     </ul>
-                    <ul class="line">
-                        <li class="nsrl"><strong>&mdash;</strong></li>
-                        <li class="isol"><strong>&mdash;</strong></li>
-                        <li><strong>&mdash;</strong></li>
-                        <li><strong>&mdash;</strong></li>
-                        <li><strong>&mdash;</strong></li>
-                        <li><strong>&mdash;</strong></li>
-                        <li><strong>&mdash;</strong></li>
-                        <li><strong>&mdash;</strong></li>
-
-                    </ul>
                     <ul class="arbete">
                         <li class="nsr">Environmental worker, Recyclings guide</li>
-                        <li class="iso">Machine operator, Warehouse worker, Forklift operator, Multi-man, Main replacer</li>
-                        <li>Gardener, Painter</li>
-                        <li>Gardener, Painter</li>
+                        <li class="iso">Machine operator, Warehouse worker, Forklift operator, Main replacer</li>
+                        <li class="su1">Gardener, Painter</li>
+                        <li class="su2">Gardener, Painter</li>
                         <li class="sdr">Advertisement deliverer</li>
                         <li class="bri">Machine operator, Warehouse worker, Forklift operator</li>
-                        <li>Warehouse worker, Forklift operator</li>
-                        <li>Ready-meals/Factory worker</li>
+                        <li class="fi1">Warehouse worker, Forklift operator</li>
+                        <li class="fi2">Ready-meals/Factory worker</li>
 
                     </ul>   
     
@@ -80,10 +82,10 @@
             <section class="misc-box">
                 <h2 class="h2utb"> Educations </h2>
                     <ul class="utb-var">    
-                        <li class="utb-var-fat">Victum in Helsingborg </li>
-                        <li class="utb-var-gap">Care och Health &mdash; Done 2010</li>
-                        <li class="utb-var-fat">Helsingborgs Komvux</li>
-                        <li>Foundational Programming &mdash; AT 2020</li>
+                        <li class="utb-var-vic">Victum in Helsingborg </li>
+                        <li class="utb-vad-ch">Care och Health &mdash; Done 2010</li>
+                        <li class="utb-var-kom">Helsingborgs Komvux</li>
+                        <li class="utb-vad-pro">Foundational Programming &mdash; AT 2020</li>
                     </ul>
 
                 <h2 class="h2spr"> Language </h2>
@@ -108,7 +110,7 @@
                 <div class="copy">
                     <pre> Copyright &copy; 2020 by Jimmy Thuse. All rights reserved. </pre>
                 </div>        
-            </footer>
+            </footer> 
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>        
     </body>
 </html>

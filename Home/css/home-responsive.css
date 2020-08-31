@@ -1,0 +1,81 @@
+
+
+
+@media screen and (max-width: 890px) {
+    footer {
+        height: 60px
+    }
+    .icons {
+        position: absolute;
+        bottom: 23px;
+        right: 20px;
+}
+    
+    .nav-drop {
+        display: block;
+    }
+    
+    .nav-menu {
+        display: inline-block;
+    }
+    
+    .nav {
+        display: none;
+    }
+    header {
+        height: 49px;
+    }
+    h2 {
+        font-size: 160%;
+    }
+    
+    .home-section {
+        font-size: 100%;
+        margin-left: 15%;
+        margin-right:15%;
+        margin-top: 30% !important;
+    }
+    
+    
+}
+
+@media screen and (max-width: 504px) {
+    footer {
+        height: 100px
+    }
+    .icons {
+        bottom: 15px;
+        right: 0;
+        position: absolute;
+        width: 100%;
+        padding-left:5%;
+        
+    }
+    .icons li {
+        margin-right: 5px;
+    }
+    
+    .about {
+        margin-left: 25%;
+        margin-right 25%;
+        width: 50%;
+        
+    }
+    .copy {
+        font-size: 7px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+        h2 {
+        font-size: 140%;
+    }
+    
+    .home-section {
+        font-size: 85%;
+        margin-left: 9%;
+        margin-right:9%;
+        margin-top: 55% !important;
+}
+
+}

@@ -4,43 +4,45 @@
     box-sizing: border-box;
 }
 
-html,
+
 body {
     font-family: 'Fira Sans', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    background-image: url(img/backudem.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-size: 100% 100%;
+    max-width: 1920px;
+    min-width: 100%; 
     max-height: 1000px;
     height: 1000px;
-    position: relative;
+    background-image: url(img/backudem.jpeg);
 }
 /*-------------------------------------------------------------*/
-/*--- Header ---------------------- url(img/test.jpeg);----------------------------*/
+/*--- Header --------------------------------------------------*/
 /*-------------------------------------------------------------*/
 header {
     padding-bottom: 12px;
     padding-top: 0px;
     border: 2px solid #727272;
     background-color: rgba(139, 139, 139, 0.80);
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 9999;
+    width: 100%;
     
 }
 
 h1 {
-    margin-left: 20px;
+    margin-left: 1%;
     margin-bottom: 0;
     font-weight: 400;
     position: absolute;
-    top: -3px;
-    left: 30px;
+    top: 0;
+    left: 0x;
     color: #ededed;
-    font-size: 210%;
     
 }
 
@@ -48,14 +50,11 @@ h1 {
         column-count: 5;
         text-align: center;
         margin-top: 4px;
-        width: 100%;
-        margin-right: 20%;
-        margin-left: 20%;
-        max-width: 1140px;
         font-size: 110%;
-        
+        padding: 0;
+        margin-left: 20%;
+        margin-right: 20%;
 }
-
 
 
 .nav li,        
@@ -65,14 +64,85 @@ h1 {
     color: #f4f4f4;
     border-bottom: 2px solid rgba(237, 237, 237, 0);
     transition: border 0.2s;
+    
 }
-
 
 .nav li a:hover {
     border-bottom: 2px solid #f4f4f4;
 }
 
+.nav-home {
+    margin-left: 66%;
+}
 
+.nav-cv {
+   
+}
+
+.nav-udemy {
+    margin-right: 33%;
+}
+
+.nav-reserved {
+    margin-right: 66%;
+}
+
+.nav-about {
+    margin-right: 100%;
+}
+
+/*-------------------------------------------------------------*/
+/*--- Drop-menu------------------------------------------------*/
+/*-------------------------------------------------------------*/
+
+
+
+.nav-drop {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ededed;
+    padding: 0px;
+    font-size: 40px;
+    overflow: hidden;
+    display: none;
+    border: none;
+}
+
+.nav-menu {
+    display: inline-block;
+    position: absolute;
+    left: 46.5%;
+    top: 0;
+    display: none;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(139, 139, 139, 0.80);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color:  #ededed; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid rgba(237, 237, 237, 0);
+    transition: border 0.2s;
+    margin: 0 !important;
+}
+
+.dropdown-content a:hover {
+    border-bottom: 2px solid rgba(237, 237, 237, 0.8);
+}
+
+
+
+
+.nav-menu:hover
+.dropdown-content {display: block;}
 
 /*-------------------------------------------------------------*/
 /*--- Main Section --------------------------------------------*/
@@ -86,7 +156,7 @@ h2 {
     text-align: center;
     border: 2px solid #727272;
     background: rgba(139, 139, 139, 0.80);
-    margin-left: 40%;
+    margin-left: 39%;
     padding-top: 5px;
     padding-bottom: 5px;
     color: #f4f4f4;
@@ -107,7 +177,7 @@ h2 {
     max-width: 100%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 22.5%;
+    margin-top: 230px;
 }
 
 
@@ -149,29 +219,11 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    min-width: 100%;
     border: 2px solid #333333;
     background-color: #4a4a4a;
     height: 40px;
     
-}
-
-.icons {
-    float: right
-}
-.icons li,        
-.icons li a {
-    display: inline;
-    text-decoration: none;
-    column-count: 3;
-    margin-right: 15px;
-    position: relative;
-    bottom: -3px;
-    right: 20px;
-    color: #f4f4f4;
-    list-style: none;
-    font-size: 110%;
-    margin-right: 25px;
 }
 
 .about {
@@ -191,16 +243,36 @@ footer {
     color: #f4f4f4;
     margin-left: 20px;
     height: 30px;
+    margin-right: 20px;
     
 }
 
 .copy {
     text-align: center;
-    width: 0%;
-    position: relative;   
+    position: absolute;   
     font-weight: 400;
-    font-size: 80%;
+    font-size: 1.5vmin;
     color: #8b8b8b;
-    bottom: -40%;
-    left: 25%;
+    bottom: 4px;;
+    left: 0;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+
+.icons {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.icons li,
+.icons li a:link,
+.icons li a:visited {
+    display: inline;
+    color: #f4f4f4;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 105%;
+    transition: color 0.2s;   
 }

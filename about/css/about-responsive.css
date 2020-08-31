@@ -1,0 +1,328 @@
+/*-------------------------------------------------------------*/
+/*--- About main section---------------------------------------*/
+/*-------------------------------------------------------------*/
+
+
+@media screen and (max-width: 1000px) {
+
+    .home-section {
+        margin-top: 200px;
+    }   
+    
+    
+    
+.img-showcase img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    border: 2px solid rgba(137, 137, 137, 0.68);
+    transition: transform 0.3s;
+
+}
+.img-jag img{ 
+    left: 9%;
+    top: 1300px;
+}
+
+.img-showcase img:hover{
+    transform: scale(1.45) rotate(360deg);
+}
+
+.img-vi img{
+    left: 37%;
+    top: 1300px;
+}
+
+
+.img-jacke img{
+    left: 6%;
+    top: 1600px;
+}
+
+
+.img-twitch img{
+    right: 41%;
+    top: 1655px;
+}
+
+
+.img-jacke2 img {
+    left: 9%;
+    top: 1930px;
+}
+    
+    
+.img-sandra img {
+    right: 9%;
+    top: 1300px;
+}
+
+
+.img-tre img  {
+    right: 9%;
+    top: 1650px;
+}
+
+    
+    
+.img-alla img{
+    right: 9%;
+    top: 1930px;
+}
+
+    body{
+        max-height: 2200px;
+        height: 2200px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 900px){
+    .home-section {
+        font-size: 18px;
+    }
+    h2 {
+        width: 75px;
+    }
+}
+
+
+@media screen and (max-width: 755px){
+    .home-section {
+        width: 65%;
+        margin-left: 17.5%;
+        margin-right: 17.5%;
+}
+}
+
+
+
+@media screen and (max-width: 635px) {
+    .home-section {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    
+    
+    }
+    h2 {
+        width: 66px;
+    }
+    
+.img-showcase img {
+    max-width: 35%;
+
+}
+.img-jag img{ 
+    left: 9%;
+    top: 1330px;
+}
+
+
+.img-vi img{
+    left: 33%;
+    top: 1050px;
+}
+
+
+.img-jacke img{
+    left: 6%;
+    top: 1670px;
+}
+
+
+.img-twitch img{
+    right: 33%;
+    top: 2230px;
+}
+
+
+.img-jacke2 img {
+    left: 9%;
+    top: 2030px;
+}
+    
+    
+.img-sandra img {
+    right: 9%;
+    top: 1330px;
+}
+
+
+.img-tre img  {
+    right: 9%;
+    top: 1735px;
+}
+
+    
+    
+.img-alla img{
+    right: 9%;
+    top: 2030px;
+}
+
+    body{
+        max-height: 4200px;
+        height: 2400px;
+    }
+
+}
+    
+    
+@media screen and (max-width: 510px)  {
+    .img-showcase {
+        position: relative;
+        top: 0px;
+} 
+    
+@media screen and (max-width: 417px)  {
+    .img-showcase {
+        position: relative;
+        top: 100px;
+} 
+
+@media screen and (max-width: 365px) {
+    .home-section {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 14px;
+        
+}
+    .img-showcase img {
+    max-width: 60%;
+    }
+    
+    
+    
+    .img-jag img{ 
+    left: 19%;
+    top: 1230px;
+}
+
+
+.img-vi img{
+    left: 19%;
+    top: 900px;
+}
+
+
+.img-jacke img{
+    left: 19%;
+    top: 1936px;
+}
+
+
+.img-twitch img{
+    left: 19%;
+    top: 2350px;
+}
+
+
+.img-jacke2 img {
+    left: 19%;
+    top: 3130px;
+}
+    
+    
+.img-sandra img {
+    left: 19%;
+    top: 1560px;
+}
+
+
+.img-tre img  {
+    left: 19%;
+    top: 2600px;
+}
+
+    
+    
+.img-alla img{
+    left: 19%;
+    top: 2850px;
+}
+
+    body{
+        max-height: 3700px;
+        height: 3700px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 290px) {
+    .img-showcase {
+        top:200px;
+    }    
+    }
+
+
+/*-------------------------------------------------------------*/
+/*--- Footer and header----------------------------------------*/
+/*-------------------------------------------------------------*/
+
+
+@media screen and (max-width: 890px) {
+    footer {
+        height: 60px
+    }
+    .icons {
+        position: absolute;
+        bottom: 23px;
+        right: 20px;
+}
+    
+    .nav-drop {
+        display: block;
+    }
+    
+    .nav-menu {
+        display: inline-block;
+    }
+    
+    .nav {
+        display: none;
+    }
+    header {
+        height: 49px;
+    }
+    
+}
+
+@media screen and (max-width: 504px) {
+    footer {
+        height: 100px
+    }
+    .icons {
+        bottom: 15px;
+        right: 0;
+        position: absolute;
+        width: 100%;
+        padding-left:5%;
+        
+    }
+    .icons li {
+        margin-right: 5px;
+    }
+    
+    .about {
+        margin-left: 25%;
+        margin-right 25%;
+        width: 50%;
+        
+    }
+    .copy {
+        font-size: 7px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}

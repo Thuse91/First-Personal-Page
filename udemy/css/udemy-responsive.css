@@ -1,0 +1,127 @@
+/*-------------------------------------------------------------*/
+/*--- Img and H2-----------------------------------------------*/
+/*-------------------------------------------------------------*/
+
+@media screen and (max-width: 1250px) {
+    .udemy-showcase {
+        column-count:1; 
+        margin-top: 100px;
+        margin-bottom: 300px;
+    }
+    
+    .udemy-imgs img{
+        margin-top: 100px;
+   
+}
+
+    
+@media screen and (max-width: 1111px) {
+    h2 {
+        width: 35%;
+        margin-left: 32.5%;
+        margin-right: 32.5%;    
+    }
+    
+
+    }
+
+
+
+@media screen and (max-width: 700px) {
+    h2 {
+        font-size: 140%;
+    }
+    }
+
+
+
+
+@media screen and (max-width: 500px) {
+    h2 {
+        width: 45%;
+        margin-left: 27.5%;
+        margin-right: 27.5%;
+    }
+    }
+
+
+@media screen and (max-width: 400px) {
+    h2 {
+        font-size: 100%;
+    }
+    }
+
+
+@media screen and (max-width: 300px) {
+    h2 {
+        width: 55%;
+        margin-left: 22.5%;
+        margin-right: 22.5%;
+    }    
+    }
+
+
+
+
+/*-------------------------------------------------------------*/
+/*--- Footer and header----------------------------------------*/
+/*-------------------------------------------------------------*/
+
+
+@media screen and (max-width: 890px) {
+    footer {
+        height: 60px
+    }
+    .icons {
+        position: absolute;
+        bottom: 23px;
+        right: 20px;
+}
+    
+    .nav-drop {
+        display: block;
+    }
+    
+    .nav-menu {
+        display: inline-block;
+    }
+    
+    .nav {
+        display: none;
+    }
+    header {
+        height: 49px;
+    }
+   
+}
+
+@media screen and (max-width: 504px) {
+    footer {
+        height: 100px
+    }
+    .icons {
+        bottom: 15px;
+        right: 0;
+        position: absolute;
+        width: 100%;
+        padding-left:5%;
+        
+    }
+    .icons li {
+        margin-right: 5px;
+    }
+    
+    .about {
+        margin-left: 25%;
+        margin-right 25%;
+        width: 50%;
+        
+    }
+    .copy {
+        font-size: 7px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
